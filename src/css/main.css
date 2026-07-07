@@ -1,0 +1,61 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-wrapper{
+    margin-top: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.home-text{
+font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.08;
+    text-align: center;
+    color: #fff;
+}
+.home-title{
+font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #dff1ef;
+text-shadow: 0 0 20px rgba(85, 238, 217, 0.7);
+}
+.home-text-two{
+    width: 265px;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+}
+.home-container{
+    padding-right: 90px;
+}
+.home-wrapper{
+    margin-top: 200px;
+    width: 680px;
+    margin-right: 0;
+    margin-left: auto;
+    gap: 24px;
+}
+.home-text{
+font-size: 24px;
+}
+.home-title{
+font-size: 102px;
+    line-height: 0.96;
+    letter-spacing: 0.04em;
+}
+.home-text-two{
+    width: 357px;
+}    
+}
