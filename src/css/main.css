@@ -147,5 +147,50 @@ width: 211px;
 .daily-slide-title{
 font-size: 26px;
 }
-
+}
+/* Features */
+.features-section{
+    background-image: url("/img/features/back-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 1053px;
+}
+.features-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.features-list{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.features-item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.features-item-title{
+color: #433579;
+font-weight: 600;
+}
+@media only screen and (min-width: 1440px) {
+.features-section{
+    background-image: url("/img/features/back-desk.png");
+height: 779px;
+}
+.features-container{
+flex-direction: row;
+align-items: center;
+gap: 48px;
+}
+.features-wrapper{
+width: 562px;
+}
+.features-list{
+    margin-top: 32px;
+    gap: 24px;
+}  
 }
