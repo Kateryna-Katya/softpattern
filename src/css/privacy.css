@@ -1,0 +1,95 @@
+@import url('./styles.css');
+
+.background {
+    text-align: left;
+    color: #1d1d2b;
+}
+
+.privacy-title {
+font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #1d1d2b;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.28;
+    color: #1d1d2b;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+.underline {
+    color: #3d6dff;
+
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.text {
+    margin-top: 8px;
+}
+
+.policy-number {
+    padding-left: 20px;
+}
+
+
+.policy-span {
+color: #00c3ff;
+}
+
+.article{
+font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.28;
+    color: #1d1d2b;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 212px;
+        padding-right: 212px;
+    }
+
+    .privacy-title {
+font-size: 62px;
+    }
+.policy-subtitle{
+font-size: 18px;
+}
+}
