@@ -65,6 +65,7 @@ font-size: 102px;
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding-top: 48px;
 }
 .about-big{
 font-family: "Nunito", sans-serif;
@@ -76,6 +77,7 @@ margin-bottom: 8px;
 }
 @media only screen and (min-width: 1440px) {
 .about-container{
+    padding-top: 110px;
 flex-direction: row;
 gap: 48px;
 }
@@ -88,4 +90,62 @@ width: 528px;
 .about-big{
 font-size: 24px;
 }    
+}
+/* Daily Activities */
+.daily-section{
+background: radial-gradient(104.32% 104.32% at 50% 50%, #6d597a 0%, #2b2237 100%);
+}
+.daily-text{
+color: #dff1ef;
+text-align: center;
+}
+.daily-swiper{
+margin-top: 32px;
+}
+.daily-swiper .swiper-slide{
+border-radius: 24px;
+    padding: 40px 20px;
+    width: 284px;
+    height: 359px;
+box-shadow: 8px 8px 32px 0 rgba(63, 56, 71, 0.12);
+    background: #fffcf7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.daily-swiper .swiper-slide img{
+width: 160px;
+    height: 159px;
+}
+.daily-slide-title{
+    margin-top: 8px;
+    font-family: "Fredoka", sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.28;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #433579;
+margin-bottom: 16px;
+}
+.daily-slide-text{
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.daily-swiper{
+margin-top: 48px;
+}
+.daily-swiper .swiper-slide{
+border-radius: 32px;
+    width: 341px;
+    height: 409px;
+}
+.daily-swiper .swiper-slide img{
+width: 211px;
+    height: 210px;
+}
+.daily-slide-title{
+font-size: 26px;
+}
+
 }
